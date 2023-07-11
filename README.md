@@ -31,7 +31,7 @@
 
 #### **B.2.1. 검수 절차 정의**
 * 본 프로젝트에서 구현하고자 하는 검수 절차(시나리오)를 아래와 같이 정함
-* 
+* <p align = "center"><img src = https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/3f3078b4-3b10-4b87-b240-19f6b91e6291 width = 50% height = 50%></p>
 #### **B.2.2. 학습 및 테스트용 동영상 촬영**
 #### **B.2.3. 어노테이션 (Bounding Box)**
 #### **B.2.4. 객체 인식을 위한 YOLOv5s 모델 개발**
