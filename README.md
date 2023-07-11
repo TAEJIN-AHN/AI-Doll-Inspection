@@ -39,13 +39,13 @@
   <table>
    <tr>
     <td><p align = 'center'>head</p></td>
-    <td><p align = 'center'>put</p></td>
-    <td><p align = 'center'>bottom</p></td>
     <td><p align = 'center'>rotate</p></td>
+    <td><p align = 'center'>bottom</p></td>
+    <td><p align = 'center'>put</p></td>
    </tr>
   <tr>
    <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/b72733b2-c3df-4e42-80aa-e59efd854d37" alt="1" width = 80% height = 80%></p></td>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/53d203d0-65e3-46a4-a28a-675" alt="2" width = 80% height = 80%></p></td>     
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/53d203d0-65e3-46a4-a28a-675dd4102d85" alt="2" width = 80% height = 80%></p></td>     
    <td><img src="./Scshot/cab_arrived.png" alt="3" width = 360px height = 640px></td>
    <td><img src="./Scshot/trip_end.png" alt="4" width = 360px height = 640px></td>
   </tr> 
