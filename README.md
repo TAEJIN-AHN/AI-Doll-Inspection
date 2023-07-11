@@ -1,7 +1,7 @@
 ![타이틀](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/c9dbff59-f53a-4222-a0fd-9f4d772e5cb3)
 
 ## **A. 목차**
-  * A. TOC
+  * A. 목차
   * B. 프로젝트 진행
     * B.1. 문제정의
     * B.2. 프로젝트 진행(주요 액션)
