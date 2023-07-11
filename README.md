@@ -14,7 +14,7 @@
     * B.3. 결과
   * C. Deck
   * D. Methods Used
-  * E. Contributin Members
+  * E. Contributing Members
 --- 
 ## **B. 프로젝트 진행**
 
@@ -85,8 +85,6 @@
    <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/ad7af895-80ba-4058-acbd-4d8833811d02" alt="4" width = 80% height = 80%></p></td>     
   </tr> 
 </table>
-
-  
 
 #### **B.2.6. YOLO와 LSTM 모델을 이식한 검수 절차 구축**
 * 
