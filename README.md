@@ -77,12 +77,12 @@
     <td><p align = 'center'>회전하기(회전/기타)</p></td>
    </tr>
   <tr>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/cbfb5e18-b849-4dd0-bd90-fd76c5896e0c" alt="1" width = 80% height = 80%></p></td>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/6d52bbd7-4186-430f-937c-7063a7716944" alt="2" width = 60% height = 80%></p></td>     
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/6d52bbd7-4186-430f-937c-7063a7716944" alt="1" width = 80% height = 80%></p></td>
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/6d52bbd7-4186-430f-937c-7063a7716944" alt="2" width = 80% height = 80%></p></td>     
   </tr>
   <tr>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/cbfb5e18-b849-4dd0-bd90-fd76c5896e0c" alt="3" width = 80% height = 80%></p></td>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/6d52bbd7-4186-430f-937c-7063a7716944" alt="4" width = 60% height = 80%></p></td>     
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/ad7af895-80ba-4058-acbd-4d8833811d02" alt="3" width = 80% height = 80%></p></td>
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/ad7af895-80ba-4058-acbd-4d8833811d02" alt="4" width = 80% height = 80%></p></td>     
   </tr> 
 </table>
 
