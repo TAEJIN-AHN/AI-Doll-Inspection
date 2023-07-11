@@ -51,10 +51,15 @@
 </table>
 
 #### **B.2.3. 어노테이션 (Bounding Box) 및 영상 분할**
-* 컴퓨터 비전을 위한 오픈소스 플랫폼인 Roboflow의 Annotation Tool을 활용하여 YOLO 학습을 위한 바운딩 박스 데이터셋을 확보
-* 학습 및 테스트를 위해 촬영된 동영상을 Adobe Premiere Pro를 활용하여 동작 단위 (약 30프레임) 단위로 분할
+* 학습 및 테스트를 위해 촬영된 동영상을 Adobe Premiere Pro를 활용하여 동작 단위 (약 30프레임) 단위로 분할 → LSTM 모델 학습에 사용
+* 컴퓨터 비전을 위한 오픈소스 플랫폼인 Roboflow의 Annotation Tool을 활용하여 프레임별 바운딩 박스 데이터셋을 확보 → YOLO 모델 학습에 사용
+<p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/d142fd9f-ebea-4448-a10c-02a371af4d28' width = 60% height = 60%></p>
 
 #### **B.2.4. 객체 인식을 위한 YOLOv5s 모델 개발**
+* Augmentation 적용 후 확보한 총 16,522개의 바운딩 박스 데이터셋을 YOLOv5 모델에 학습하여 7개의 object를 검출할 수 있도록 함 (윗면, 아랫면, 옆면, 정면, 뒷면, 오류, 손)
+* 평균 Precision, Recall, mAP50은 0.982, 0.986, 0.988로 검출 성능이 우수한 모델을 개발함
+
+
 #### **B.2.5. 행동 인식을 위한 LSTM 모델 개발**
 #### **B.2.6. YOLO와 LSTM 모델을 이식한 검수 절차 구축**
 #### **B.2.7. PyQt를 활용한 검수 PC 어플리케이션 개발**
