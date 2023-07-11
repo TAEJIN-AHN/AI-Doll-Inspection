@@ -70,17 +70,24 @@
 * 본 프로젝트에서는 총 2개의 LSTM 모델을 개발하였으며 각각 학습한 데이터가 다름
   1. [내려놓기] 동작 시 손의 하강과 상승을 구분할 수 있는 모델 ← 마디별 좌표값 데이터
   2. [회전하기] 동작 시 손의 회전 여부를 확인할 수 있는 모델 ← 마디간 각도값 데이터
-
+* 개발한 LSTM 모델의 성능은 다음과 같음 (테스트 영상 포함)
  <table>
    <tr>
     <td><p align = 'center'>내려놓기(상승/하강)</p></td>
     <td><p align = 'center'>회전하기(회전/기타)</p></td>
    </tr>
   <tr>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/cbfb5e18-b849-4dd0-bd90-fd76c5896e0c" alt="4" width = 80% height = 80%></p></td>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/53d203d0-65e3-46a4-a28a-675dd4102d85" alt="2" width = 80% height = 80%></p></td>     
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/cbfb5e18-b849-4dd0-bd90-fd76c5896e0c" alt="1" width = 80% height = 80%></p></td>
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/6d52bbd7-4186-430f-937c-7063a7716944" alt="2" width = 60% height = 80%></p></td>     
+  </tr>
+  <tr>
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/cbfb5e18-b849-4dd0-bd90-fd76c5896e0c" alt="3" width = 80% height = 80%></p></td>
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/6d52bbd7-4186-430f-937c-7063a7716944" alt="4" width = 60% height = 80%></p></td>     
   </tr> 
 </table>
- 
+
+  
+
 #### **B.2.6. YOLO와 LSTM 모델을 이식한 검수 절차 구축**
+* 
 #### **B.2.7. PyQt를 활용한 검수 PC 어플리케이션 개발**
