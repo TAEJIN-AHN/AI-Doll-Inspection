@@ -6,7 +6,7 @@
     * B.1. 문제정의
     * B.2. 프로젝트 진행(주요 액션)
       * B.2.1. 학습 및 테스트용 동영상 촬영
-      * B.2.2. 어노테이션 (Bounding Box)
+      * B.2.2. 어노테이션 (Bounding Box) 및 영상 분할
       * B.2.3. 객체 인식을 위한 YOLOv5s 모델 개발
       * B.2.4. 행동 인식을 위한 LSTM 모델 개발
       * B.2.5. YOLO와 LSTM 모델을 이식한 검수 절차 구축
@@ -35,23 +35,25 @@
 
 #### **B.2.2. 학습 및 테스트용 동영상 촬영**
 * 검수 시나리오상 필요한 동작을 크게 4개로 구분지어 동영상 촬영
-
-  <table>
+<table>
    <tr>
-    <td><p align = 'center'>head</p></td>
-    <td><p align = 'center'>rotate</p></td>
-    <td><p align = 'center'>bottom</p></td>
-    <td><p align = 'center'>put</p></td>
+    <td><p align = 'center'>내려놓기</p></td>
+    <td><p align = 'center'>회전하기</p></td>
+    <td><p align = 'center'>윗면 보여주기</p></td>
+    <td><p align = 'center'>아랫면 보여주기</p></td>
    </tr>
   <tr>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/b72733b2-c3df-4e42-80aa-e59efd854d37" alt="1" width = 80% height = 80%></p></td>
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/cbfb5e18-b849-4dd0-bd90-fd76c5896e0c" alt="4" width = 80% height = 80%></p></td>
    <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/53d203d0-65e3-46a4-a28a-675dd4102d85" alt="2" width = 80% height = 80%></p></td>     
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/b72733b2-c3df-4e42-80aa-e59efd854d37" alt="1" width = 80% height = 80%></p></td>
    <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/a746869f-0ce0-49cf-b6ca-27c5d3085aa9" alt="3" width = 80% height = 80%></p></td>   
-   <td><img src="./Scshot/trip_end.png" alt="4" width = 360px height = 640px></td>
   </tr> 
 </table>
 
-#### **B.2.3. 어노테이션 (Bounding Box)**
+#### **B.2.3. 어노테이션 (Bounding Box) 및 영상 분할**
+* 컴퓨터 비전을 위한 오픈소스 플랫폼인 Roboflow의 Annotation Tool을 활용하여 YOLO 학습을 위한 바운딩 박스 데이터셋을 확보
+* 학습 및 테스트를 위해 촬영된 동영상을 Adobe Premiere Pro를 활용하여 동작 단위 (약 30프레임) 단위로 분할
+
 #### **B.2.4. 객체 인식을 위한 YOLOv5s 모델 개발**
 #### **B.2.5. 행동 인식을 위한 LSTM 모델 개발**
 #### **B.2.6. YOLO와 LSTM 모델을 이식한 검수 절차 구축**
