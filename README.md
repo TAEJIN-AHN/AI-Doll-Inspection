@@ -49,7 +49,7 @@
 </table>
 
 #### **B.2.3. 어노테이션 (Bounding Box) 및 영상 분할**
-* 촬영된 영상을 Adobe Premiere Pro를 활용하여 동작 단위(약 30프레임 간격)로 분할 → LSTM 모델 학습에 사용
+* 촬영된 영상을 Adobe Premiere Pro를 활용하여 동작 단위(약 20프레임 길이)로 분할 → LSTM 모델 학습에 사용
 * Roboflow의 Annotation Tool을 활용하여 프레임별 바운딩 박스 데이터셋을 확보 → YOLO 모델 학습에 사용
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/d142fd9f-ebea-4448-a10c-02a371af4d28' width = 60% height = 60%></p>
 
