@@ -1,6 +1,4 @@
-C2C 플랫폼을 위한 불량 제품 검수 모델 개발
-
-# **C2C 플랫폼을 위한 불량 제품 검수 모델 개발**
+![타이틀](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/c9dbff59-f53a-4222-a0fd-9f4d772e5cb3)
 
 ## **A. TOC**
 
