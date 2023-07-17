@@ -3,7 +3,7 @@
 * 손동작을 구별하는 LSTM 모델이 회전과 그 외의 동작을 오차없이 0 혹은 1의 확률로만 구분할 수 있다면 이상적이나, 실제로는 그렇지 못함
 * 본 테스트에서는 손 동작을 구분하는 LSTM 분류 모델의 Probability Threshold를 설정하여 아래의 오류를 줄이고자 함
    * 회전 동작이지만 LSTM 모델이 그렇지 않다고 분류할 경우
-   * 회전 동작이 아니지만 LSTM 모델이 회전동작이라고 분류할 경우
+   * 회전 동작이 아니지만 LSTM 모델이 회전 동작이라고 분류할 경우
 <p align = 'center'>
   <img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/97f19243-f466-424f-bcce-90663862e33b' width = 40% height = 40%>
 </p>
