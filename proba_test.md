@@ -55,7 +55,7 @@
     <td><p align = 'center'>직전 10프레임 영상</p></td>
    </tr>
   <tr>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/28dd95b7-a4eb-406d-ac1d-98e78b00acd5" alt="1" width = 100% height = 100%></p></td>
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/00a99df7-e305-4ab9-a345-0a9a767a5d3d" alt="1" width = 100% height = 100%></p></td>
    <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/29e6ecd6-61ae-439d-96be-cf99879c2be6" alt="2" width = 80% height = 80%></p></td>
   </tr> 
 </table>
