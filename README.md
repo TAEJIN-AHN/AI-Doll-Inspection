@@ -61,7 +61,7 @@
 * 뒤집으면 반대의 표정이 나오는 인형의 특징을 활용하여 찡그린 표정을 '불량'이라고 정의하였으며, <br>불량을 제외한 나머지 6개의 객체는 다음과 같음
   
 * 모델 성능을 테스트한 결과 Confusion Matrix는 다음과 같음
-<p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/f0312ce2-1b86-4435-b8d8-09c020d890da' width = 40% height = 40%></p>
+<p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/315ca2b9-137d-42b4-bff0-823e9c1858c4' width = 40% height = 40%></p>
 
 * 빠른 연산을 위해 모델을 onnx 형식으로 변환하여 추론에 사용
 
