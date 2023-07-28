@@ -28,7 +28,7 @@
 <p align = "center"><img src = https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/beaba5fa-203d-4b15-acf8-aff297f70546 width = 70% height = 70%></p>
 
 #### **B.2.1. 검수 절차 정의**
-* 본 프로젝트에서 구현하고자 하는 검수 절차를 아래와 같이 정함
+* 본 프로젝트에서 구현하고자 하는 검수 절차를 아래와 같이 크게 5단계로 정의함
 * 윗면과 아랫면을 보여주는 손동작에서는 손바닥이 보이지 않기 때문에 랜드마크를 검출할 수 없어 LSTM 모델을 사용하지 않음
 <p align = "center"><img src = https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/49e55063-80c7-4dac-8ff2-ef78155a6873 width = 50% height = 50%></p>
 
@@ -51,16 +51,18 @@
 
 #### **B.2.3. 어노테이션 (Bounding Box) 및 영상 분할**
 * 촬영된 영상을 Adobe Premiere Pro를 활용하여 동작 단위(약 20프레임 길이)로 분할 → LSTM 모델 학습에 사용
-* Roboflow의 Annotation Tool을 활용하여 프레임별 바운딩 박스 데이터셋을 확보 → YOLO 모델 학습에 사용
+* [Roboflow](https://roboflow.com/)의 Annotation Tool을 활용하여 프레임별 바운딩 박스 데이터셋을 확보 → YOLO 모델 학습에 사용
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/d142fd9f-ebea-4448-a10c-02a371af4d28' width = 60% height = 60%></p>
 
 #### **B.2.4. 객체 인식을 위한 YOLOv5s 모델 개발**
-* 실시간 처리를 위해 YOLOv5 모델 중 속도가 빠른 YOLOv5s 모델을 선택함  
-* Augmentation 적용 후 확보한 총 16,522개 바운딩 박스 데이터셋을 학습하여 7개의 객체를 검출할 수 있도록 함 (윗면, 아랫면, 옆면, 정면, 뒷면, 오류, 손)
-  * 뒤집으면 반대의 표정이 나오는 인형의 특징을 활용하여 찡그린 표정을 '불량'이라고 정의함
-* 모델 성능 테스트 결과는 다음과 같음
-  *  Precision : 0.982, Recall : 0.986, mAP50 : 0.988
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/35742e3a-9d50-4042-a63c-040edd3ddefe' width = 60% height = 60%></p>
+
+* Augmentation 적용 후 확보한 총 14,494장의 바운딩 박스 데이터셋을 학습하여 불량을 포함한 총 7개의 객체를 검출할 수 있도록 함
+* 뒤집으면 반대의 표정이 나오는 인형의 특징을 활용하여 찡그린 표정을 '불량'이라고 정의하였으며, <br>불량을 제외한 나머지 6개의 객체는 다음과 같음
+  
+* 모델 성능을 테스트한 결과 Confusion Matrix는 다음과 같음
+<p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/35742e3a-9d50-4042-a63c-040edd3ddefe' width = 60% height = 60%></p>
+
 
 * 빠른 연산을 위해 모델을 onnx 형식으로 변환하여 추론에 사용
 
@@ -68,8 +70,8 @@
 * 분할된 영상에 Mediapipe를 적용하여 손의 랜드마크를 검출하고 마디간 각도값 및 마디별 좌표값을 계산
 * 이 때, 손의 랜드마크는 YOLO가 검출한 손의 Bounding Box 안에서만 확인할 수 있도록 함
 * 본 프로젝트에서는 총 2개의 LSTM 모델을 개발하였으며 각각 학습한 데이터가 다름
-  1. [내려놓기] 동작 시 손의 하강과 상승을 구분할 수 있는 모델 ← 마디별 좌표값 데이터
-  2. [회전하기] 동작 시 손의 회전 여부를 확인할 수 있는 모델 ← 마디간 각도값 데이터
+  1. [내려놓기] 동작 시 손의 하강과 상승을 구분할 수 있는 모델 ← 마디별 **좌표값** 데이터
+  2. [회전하기] 동작 시 손의 회전 여부를 확인할 수 있는 모델 ← 마디간 **각도값** 데이터
 * 개발한 LSTM 모델의 성능은 다음과 같음
  <table>
    <tr>
