@@ -60,8 +60,18 @@
 * Augmentation 적용 후 확보한 총 14,494장의 바운딩 박스 데이터셋을 학습하여 불량을 포함한 총 7개의 객체를 검출할 수 있도록 함
 * 뒤집으면 반대의 표정이 나오는 인형의 특징을 활용하여 찡그린 표정을 '불량'이라고 정의하였으며, <br>불량을 제외한 나머지 6개의 객체는 다음과 같음
   
-* 모델 성능을 테스트한 결과 Confusion Matrix는 다음과 같음
-<p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/315ca2b9-137d-42b4-bff0-823e9c1858c4' width = 40% height = 40%></p>
+* 모델 성능을 테스트한 결과 Precision-Recall Curve와 Confusion Matrix는 다음과 같음
+
+<table align ='center'>
+ <tr>
+  <th>Precision-Recall Curve</th>
+  <th>Confusion Matrix</th>
+ </tr>
+ <tr>
+  <td><p align = 'center'><img src = "https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/main/yolov5s_train_test/test_results/PR_curve.png"></p></td>
+  <td><p align = 'center'><img src = "https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/main/yolov5s_train_test/test_results/confusion_matrix.png" width  = 90% height = 90%></p></td>
+ </tr>
+</table>
 
 * 빠른 연산을 위해 모델을 onnx 형식으로 변환하여 추론에 사용
 
