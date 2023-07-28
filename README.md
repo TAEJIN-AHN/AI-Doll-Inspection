@@ -1,8 +1,8 @@
 ![타이틀](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/c9dbff59-f53a-4222-a0fd-9f4d772e5cb3)
 
 ## **A. 목차**
-  * A. 목차
-  * B. 프로젝트 진행
+  * A. [목차](#a-목차)
+  * B. [프로젝트 진행](#b-프로젝트-진행)
     * B.1. 문제정의
     * B.2. 주요액션
       * B.2.1. 학습 및 테스트용 동영상 촬영
@@ -11,10 +11,9 @@
       * B.2.4. 행동 인식을 위한 LSTM 모델 개발
       * B.2.5. YOLO와 LSTM 모델을 이식한 검수 절차 구축
       * B.2.6. PyQt를 활용한 검수 PC 어플리케이션 개발
-    * B.3. 결과
-  * C. Deck
-  * D. Methods Used
-  * E. Contributing Members
+  * C. 결과
+  * D. Deck
+  * E. Methods Used
 --- 
 ## **B. 프로젝트 진행**
 
