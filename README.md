@@ -29,7 +29,7 @@
 
 #### **B.2.1. 검수 절차 정의**
 * 본 프로젝트에서 구현하고자 하는 검수 절차를 아래와 같이 정함 (※ 윗면과 아랫면을 보여주는 손동작에서는 손바닥이 보이지 않아 손의 랜드마크를 검출할 수 없어 제외함)
-<p align = "center"><img src = https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/6a064211-cd9f-4544-a99e-be454fcc6468 width = 50% height = 50%></p>
+<p align = "center"><img src = https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/49e55063-80c7-4dac-8ff2-ef78155a6873 width = 50% height = 50%></p>
 
 #### **B.2.2. 학습 및 테스트용 동영상 촬영**
 * 검수 시나리오상 필요한 동작을 크게 4개로 구분지어 동영상 촬영
