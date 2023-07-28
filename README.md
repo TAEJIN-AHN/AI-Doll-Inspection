@@ -28,7 +28,8 @@
 <p align = "center"><img src = https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/beaba5fa-203d-4b15-acf8-aff297f70546 width = 70% height = 70%></p>
 
 #### **B.2.1. 검수 절차 정의**
-* 본 프로젝트에서 구현하고자 하는 검수 절차를 아래와 같이 정함 (※ 윗면과 아랫면을 보여주는 손동작에서는 손바닥이 보이지 않아 손의 랜드마크를 검출할 수 없어 제외함)
+* 본 프로젝트에서 구현하고자 하는 검수 절차를 아래와 같이 정함
+* 윗면과 아랫면을 보여주는 손동작에서는 손바닥이 보이지 않기 때문에 랜드마크를 검출할 수 없어 LSTM 모델을 사용하지 않음
 <p align = "center"><img src = https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/49e55063-80c7-4dac-8ff2-ef78155a6873 width = 50% height = 50%></p>
 
 #### **B.2.2. 학습 및 테스트용 동영상 촬영**
