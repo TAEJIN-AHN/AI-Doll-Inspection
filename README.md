@@ -63,7 +63,6 @@
 * 모델 성능을 테스트한 결과 Confusion Matrix는 다음과 같음
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/35742e3a-9d50-4042-a63c-040edd3ddefe' width = 60% height = 60%></p>
 
-
 * 빠른 연산을 위해 모델을 onnx 형식으로 변환하여 추론에 사용
 
 #### **B.2.5. 행동 인식을 위한 LSTM 모델 개발**
