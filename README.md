@@ -83,18 +83,19 @@
 <p align = 'center'>※ 단, 손의 랜드마크는 YOLO가 검출한 손의 Bounding Box 안에서만 확인할 수 있도록 함</p>
 
 * 개발한 LSTM 모델의 성능은 다음과 같음
+
  <table>
    <tr>
-    <td><p align = 'center'>내려놓기(상승/하강)</p></td>
-    <td><p align = 'center'>회전하기(회전/기타)</p></td>
+    <th>내려놓기(상승/멈춤)</th>
+    <th>회전하기(회전/기타)</th>
    </tr>
   <tr>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/beae91f1-529d-4e24-a431-81f287fe3785" width = 80% height = 80%></p></td>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/6d52bbd7-4186-430f-937c-7063a7716944" width = 40% height = 40%></p></td>     
+   <td><p align = 'center' valign = 'center'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/beae91f1-529d-4e24-a431-81f287fe3785" width = 100% height = 100%>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/6d52bbd7-4186-430f-937c-7063a7716944" width = 100% height = 100%></p></td>     
   </tr>
   <tr>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/6136e27e-9994-478d-9138-31f56870f088" width = 80% height = 80%></p></td>
-   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/2ffeea7c-cd13-4a05-bd91-44e152f5214c" width = 40% height = 40%></p></td>     
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/6136e27e-9994-478d-9138-31f56870f088" width = 100% height = 100%></p></td>
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/2ffeea7c-cd13-4a05-bd91-44e152f5214c" width = 100% height = 100%></p></td>     
   </tr> 
 </table>
 
