@@ -82,6 +82,7 @@
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/c812af74-cbd0-444f-b47e-d1f5cd6c7915' width = 80% height = 80%></p>
 <p align = 'center'>※ 단, 손의 랜드마크는 YOLO가 검출한 손의 Bounding Box 안에서만 확인할 수 있도록 함</p>
 
+* 자세한 코드와 내용은 [링크](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/03c117013ea6285c95d51954e85bbcbbabbec976/LSTM_train_test.ipynb)를 참고해주시기 바랍니다.
 * 개발한 LSTM 모델의 성능은 다음과 같음
 
  <table>
