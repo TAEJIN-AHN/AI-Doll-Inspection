@@ -58,7 +58,7 @@
 #### **B.2.4. 객체 인식을 위한 YOLOv5s 모델 개발**
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/35742e3a-9d50-4042-a63c-040edd3ddefe' width = 60% height = 60%></p>
 
-* yolo 학습 및 테스트 코드는 [링크_1](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/5727c88020701279ef4e4d02bb14553ea21704ad/yolov5s_train_test/YOLOv5s_train_test.ipynb)을, yolo 테스트 결과(Confusion Matrix 등)는 [링크_2](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/tree/5727c88020701279ef4e4d02bb14553ea21704ad/yolov5s_train_test/test_results)를 참고해주시기 바랍니다.
+* YOLO 학습 및 테스트 코드는 [링크_1](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/5727c88020701279ef4e4d02bb14553ea21704ad/yolov5s_train_test/YOLOv5s_train_test.ipynb)을, 테스트 결과(Confusion Matrix 등)는 [링크_2](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/tree/5727c88020701279ef4e4d02bb14553ea21704ad/yolov5s_train_test/test_results)를 참고해주시기 바랍니다.
 * Augmentation 적용 후 확보한 총 14,494장의 바운딩 박스 데이터셋을 학습하여 불량을 포함한 총 7개의 객체를 검출할 수 있도록 함
 * 뒤집으면 반대의 표정이 나오는 인형의 특징을 활용하여 찡그린 표정을 '불량'이라고 정의하였으며, <br>불량을 제외한 나머지 6개의 객체는 다음과 같음
   
