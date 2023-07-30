@@ -70,8 +70,8 @@
   <th>Confusion Matrix</th>
  </tr>
  <tr>
-  <td><p align = 'center'><img src = "https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/main/yolov5s_train_test/test_results/PR_curve.png"></p></td>
-  <td><p align = 'center'><img src = "https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/main/yolov5s_train_test/test_results/confusion_matrix.png" width  = 90% height = 90%></p></td>
+  <td><p align = 'center'><img src = "https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/main/YOLOv5s_train_test/test_results/PR_curve.png"></p></td>
+  <td><p align = 'center'><img src = "https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/main/YOLOv5s_train_test/test_results/confusion_matrix.png" width  = 90% height = 90%></p></td>
  </tr>
 </table>
 
