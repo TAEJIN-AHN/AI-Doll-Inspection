@@ -79,10 +79,9 @@
 
 #### **B.2.5. 행동 인식을 위한 LSTM 모델 개발**
 
-<p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/076da53f-d16f-43ef-bf01-6fb79b4ad0b3' width = 80% height = 80%></p>
+<p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/c812af74-cbd0-444f-b47e-d1f5cd6c7915' width = 80% height = 80%></p>
+<p align = 'center'>※ 단, 손의 랜드마크는 YOLO가 검출한 손의 Bounding Box 안에서만 확인할 수 있도록 함</p>
 
-* 분할된 영상에 Mediapipe를 적용하여 손의 랜드마크를 검출하고 마디간 각도값 및 마디별 좌표값을 계산
-* 단, 손의 랜드마크는 YOLO가 검출한 손의 Bounding Box 안에서만 확인할 수 있도록 함
 * 개발한 LSTM 모델의 성능은 다음과 같음
  <table>
    <tr>
