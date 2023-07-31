@@ -7,7 +7,7 @@
  
 <table align = 'center'>
   <tr>
-    <td align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/97f19243-f466-424f-bcce-90663862e33b' width = 40% height = 40%></td>
+    <td align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/97f19243-f466-424f-bcce-90663862e33b' width = 100% height = 100%>$nbsp;</td>
     <td align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/1637374e-762f-4c38-bcdc-9861c2f4f344' width = 40% height = 40%></td></td>
   </tr>
 </table>
