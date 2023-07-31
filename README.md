@@ -102,6 +102,7 @@
 #### **B.2.6. 딥러닝 모델을 이식한 검수 절차 구축 및 PC APP 개발**
 
 [![video_link_image](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/0507e2dd-32ef-46fc-afd7-810b37a8d506)](https://youtu.be/T3MaxBySd3U)
+[![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) 
 
 * 앞선 단계에서 학습한 YOLOv5s, LSTM 모델을 이식하여 행동 및 절차 인식 알고리즘을 구축함
 * 또한, 해당 알고리즘을 편리하게 사용할 수 있도록 PyQt를 사용하여 PC 어플리케이션을 개발함
