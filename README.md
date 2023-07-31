@@ -144,3 +144,5 @@
 </table>
 
 <p align = 'center'>※<a href = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/eee01f41a56ca548bd4e4f100e578cb79f403051/proba_test.md'>링크</a>와 같이 훈련 영상과 테스트 영상을 참고하여 행동 탐지의 기준이 되는 Probability Threshold를 정함</p>
+
+## **C. 결과 및 기대효과**
