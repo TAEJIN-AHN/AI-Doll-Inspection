@@ -10,7 +10,7 @@
       * B.2.3. [어노테이션 (Bounding Box) 및 영상 분할](#b23-어노테이션-bounding-box-및-영상-분할)
       * B.2.4. [객체 인식을 위한 YOLOv5s 모델 개발](#b24-객체-인식을-위한-yolov5s-모델-개발) - [관련 코드](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/970e9b330606b5a45c64293e6b4578875c08f6a2/YOLOv5s_train_test/YOLOv5s_train_test.ipynb) | [모델 테스트 결과](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/tree/970e9b330606b5a45c64293e6b4578875c08f6a2/YOLOv5s_train_test/test_results)
       * B.2.5. [행동 인식을 위한 LSTM 모델 개발](#b25-행동-인식을-위한-lstm-모델-개발) - [관련 코드](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/03c117013ea6285c95d51954e85bbcbbabbec976/LSTM_train_test.ipynb)
-      * B.2.6. [딥러닝 모델을 이식한 검수 절차 구축 및 PC APP 개발](#b26-딥러닝-모델을-이식한-검수-절차-구축-및-pc-app-개발) -[PC 어플리케이션](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/62319cd54da9bda4cad1abef90abed321749d7e0/Inspection-Model_Application.zip)
+      * B.2.6. [딥러닝 모델을 이식한 검수 절차 구축 및 PC APP 개발](#b26-딥러닝-모델을-이식한-검수-절차-구축-및-pc-app-개발) -[PC 어플리케이션 다운로드](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/62319cd54da9bda4cad1abef90abed321749d7e0/Inspection-Model_Application.zip) | [관련 코드](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/a935d7a07596d7449443c474fa150c06c6972291/inspection_process.py)
   * C. 결과 및 기대효과
   * D. Deck
   * E. Methods Used
@@ -103,7 +103,7 @@
 
 <p align ='center'><a href="https://youtu.be/T3MaxBySd3U/" target="_blank"><img alt="youtube_link" width = 60% height = 60% src="http://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/0507e2dd-32ef-46fc-afd7-810b37a8d506"></a></p>
 
-* PC APP 전체 파일은 [링크_1](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/62319cd54da9bda4cad1abef90abed321749d7e0/Inspection-Model_Application.zip)를 통해 내려받을 수 있고, 그 중 검수 절차 코드는 [링크_2]()를 통해 확인 가능합니다.
+* PC APP 전체 파일은 [링크_1](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/62319cd54da9bda4cad1abef90abed321749d7e0/Inspection-Model_Application.zip)를 통해 내려받을 수 있고, 그 중 검수 절차 코드는 [링크_2](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/a935d7a07596d7449443c474fa150c06c6972291/inspection_process.py)를 통해 확인 가능합니다.
 * 앞선 단계에서 학습한 YOLOv5s, LSTM 모델을 이식하여 행동 및 절차 인식 알고리즘을 구축함
 * 또한, 해당 알고리즘을 편리하게 사용할 수 있도록 PyQt를 사용하여 PC 어플리케이션을 개발함
 * 해당 알고리즘이 진행되기 위한 주요한 전제 조건과 행동 판단 조건, 절차 인식 조건은 다음과 같음
