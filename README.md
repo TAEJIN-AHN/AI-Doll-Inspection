@@ -10,8 +10,7 @@
       * B.2.3. [어노테이션 (Bounding Box) 및 영상 분할](#b23-어노테이션-bounding-box-및-영상-분할)
       * B.2.4. [객체 인식을 위한 YOLOv5s 모델 개발](#b24-객체-인식을-위한-yolov5s-모델-개발) - [관련 코드](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/970e9b330606b5a45c64293e6b4578875c08f6a2/YOLOv5s_train_test/YOLOv5s_train_test.ipynb) | [모델 테스트 결과](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/tree/970e9b330606b5a45c64293e6b4578875c08f6a2/YOLOv5s_train_test/test_results)
       * B.2.5. [행동 인식을 위한 LSTM 모델 개발](#b25-행동-인식을-위한-lstm-모델-개발) - [관련 코드](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/03c117013ea6285c95d51954e85bbcbbabbec976/LSTM_train_test.ipynb)
-      * B.2.6. YOLO와 LSTM 모델을 이식한 검수 절차 구축
-      * B.2.7. PyQt를 활용한 검수 PC 어플리케이션 개발
+      * B.2.6. [딥러닝 모델을 이식한 검수 절차 구축 및 PC APP 개발](#b26-딥러닝-모델을-이식한-검수-절차-구축-및-pc-app-개발)
   * C. 결과 및 기대효과
   * D. Deck
   * E. Methods Used
