@@ -173,6 +173,7 @@
 * 일반 데이터 처리
   * pandas
   * numpy
+  * sklearn
 * 영상 처리
   * opencv
   * mediapipe
