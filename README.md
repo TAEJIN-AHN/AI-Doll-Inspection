@@ -115,7 +115,7 @@
  </tr>
  <tr>
   <!--<td>전제 조건</td>-->
-  <td>각 행동(물건 내려놓기, 물건 회전하기)의 수행시간은 1초 내외이다</td>
+  <td>각 행동의 수행시간은 1초 내외이다</td>
  </tr>
  <tr>
   <td rowspan = '3' align = 'center' valign = 'center'>행동 판단<br>조건</td>
