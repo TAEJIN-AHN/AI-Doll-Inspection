@@ -59,7 +59,7 @@
 
 * YOLO 학습 및 테스트 코드는 [링크_1](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/970e9b330606b5a45c64293e6b4578875c08f6a2/YOLOv5s_train_test/YOLOv5s_train_test.ipynb)을, 테스트 결과(Confusion Matrix 등)는 [링크_2](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/tree/970e9b330606b5a45c64293e6b4578875c08f6a2/YOLOv5s_train_test/test_results)를 참고해주시기 바랍니다.
 * Augmentation 적용 후 확보한 총 14,494장의 바운딩 박스 데이터셋을 학습하여 불량을 포함한 총 7개의 객체를 검출할 수 있도록 함
-* 뒤집으면 반대의 표정이 나오는 인형의 특징을 활용하여 찡그린 표정을 '불량'이라고 정의하였으며, <br>불량을 제외한 나머지 6개의 객체는 다음과 같음
+* 뒤집으면 반대의 표정이 나오는 인형의 특징을 활용하여 찡그린 표정을 '불량'이라고 정의하였으며, 그 외 6개의 객체는 인형의 '정면', '옆면', '뒷면', '아랫면', '윗면', '손'임
   
 * 모델 성능을 테스트한 결과 Precision-Recall Curve와 Confusion Matrix는 다음과 같음
 
