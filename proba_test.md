@@ -4,9 +4,13 @@
 * 본 테스트에서는 손 동작을 구분하는 LSTM 분류 모델의 Probability Threshold를 설정하여 아래의 오류를 줄이고자 함
    * 내려놓거나 회전하는 손 동작이지만 LSTM 모델이 그렇지 않다고 분류할 경우
    * 내려놓거나 회전하는 손 동작이 아니지만 LSTM 모델이 그렇다고 분류할 경우
-<p align = 'center'>
-  <img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/97f19243-f466-424f-bcce-90663862e33b' width = 40% height = 40%>
-</p>
+ 
+<table align = 'center'>
+  <tr>
+    <td align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/97f19243-f466-424f-bcce-90663862e33b' width = 40% height = 40%></td>
+    <td align = 'center'></td>
+  </tr>
+</table>
 
 ## 1번 테스트
 * 295 ~ 304번째 프레임의 각도값을 LSTM 모델에 대입한 결과, 약 42%의 확률로 회전 동작을 분류함
