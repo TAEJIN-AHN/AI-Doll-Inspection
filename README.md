@@ -110,7 +110,7 @@
 
 <table align = 'center'>
  <tr>
-  <td rowspan = '2' align = 'center' valign = 'center'>전제<br>조건&nbsp;&nbsp;</td>
+  <td rowspan = '2' align = 'center' valign = 'center'>전제<br>조건</td>
   <td>반드시 한 손으로만 행동을 수행한다</td>
  </tr>
  <tr>
