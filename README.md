@@ -103,6 +103,7 @@
 
 <p align ='center'><a href="https://youtu.be/T3MaxBySd3U/" target="_blank"><img alt="youtube_link" width = 60% height = 60% src="http://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/0507e2dd-32ef-46fc-afd7-810b37a8d506"></a></p>
 
+* PC APP 전체 파일은 [링크_1]()를 통해 내려받을 수 있고, 그 중 검수 절차 코드는 [링크_2]()를 통해 확인 가능합니다.
 * 앞선 단계에서 학습한 YOLOv5s, LSTM 모델을 이식하여 행동 및 절차 인식 알고리즘을 구축함
 * 또한, 해당 알고리즘을 편리하게 사용할 수 있도록 PyQt를 사용하여 PC 어플리케이션을 개발함
 * 해당 알고리즘이 진행되기 위한 주요한 전제 조건과 행동 판단 조건, 절차 인식 조건은 다음과 같음
