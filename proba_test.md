@@ -58,6 +58,23 @@
   </tr> 
 </table>
 
+## 4번 테스트
+* 355 ~ 364번째 프레임의 각도값을 LSTM 모델에 대입한 결과, 약 31%의 확률로 회전 동작을 분류함
+* 362번째 프레임부터 회전 동작을 확인할 수 있으며, 10프레임 중 3개의 프레임(362~364)에 회전 동작이 포함됨
+* 1번 테스트와 동일하게 정지 동작에서 회전 동작으로 변경하는 과정을 담고 있으나, 10프레임 중 3개만이 회전 동작을 담고 있음
+* Threshold를 30% 초반으로 설정한다면, 3번 테스트 영상과 같이 회전 동작이 거의 없는 구간에서도 회전 동작을 분류할 가능성이 있음
+
+<table>
+   <tr>
+    <td><p align = 'center'>Scatter Plot</p></td>
+    <td><p align = 'center'>직전 10프레임 영상</p></td>
+   </tr>
+  <tr>
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/00a99df7-e305-4ab9-a345-0a9a767a5d3d" alt="1" width = 100% height = 100%></p></td>
+   <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/f3fd9b6f-059d-478e-913b-6291c96f07c0" alt="2" width = 80% height = 80%></p></td>
+  </tr> 
+</table>
+
 ## 결론
 * 정지 동작에서 회전 동작으로 변경하는 구간과 회전 동작에서 정지 동작으로 변경하는 구간의 확률값 차이 (42%, 33%)가 대략 9~10% 정도로 큼
 * Threshold를 30% 초반으로 설정한다면, 3번 테스트 영상과 같이 회전 동작이 거의 없는 구간에서도 회전 동작을 분류할 가능성이 있음
