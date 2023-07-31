@@ -64,7 +64,7 @@
 <table>
    <tr>
     <td><p align = 'center'>Scatter Plot</p></td>
-    <td><p align = 'center'>직전 10프레임 영상</p></td>
+    <td><p align = 'center'>테스트 영상</p></td>
    </tr>
   <tr>
    <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/1ce2ac79-5dbe-4bc0-be16-0de173be4a0c" alt="1" width = 100% height = 100%></p></td>
