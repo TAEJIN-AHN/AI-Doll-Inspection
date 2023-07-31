@@ -22,15 +22,21 @@
 * 고가 제품을 다루는 리셀 플랫폼을 중심으로 검수 시스템이 운영되고 있으나, 전문 인력에 대한 의존성이 높고 일부 플랫폼 및 한정된 품목에서만 검수가 이루어지는 한계가 있음
 * 본 프로젝트에서는 **판매자가 물품의 모든 면을 촬영하고 딥러닝 모델이 제품의 상태와 손동작을 확인하는 검수 절차**를 구축하여 플랫폼의 업무 과중을 줄이고 거래의 신뢰도를 높이고자 함
 
+---
+
 ### **B.2. 주요 액션**
 * 본 프로젝트에서는 검수 물품으로 아래 사진과 같이 뒤집으면 표정이 바뀌는 문어 인형을 사용하였음<br>
 <p align = "center"><img src = https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/beaba5fa-203d-4b15-acf8-aff297f70546 width = 70% height = 70%></p>
+
+---
 
 #### **B.2.1. 검수 절차 정의**
 * 본 프로젝트에서 구현하고자 하는 검수 절차를 아래와 같이 크게 5단계로 정의함
 * 각 단계에서 요구하는 물품의 상태와 손동작이 모두 인식되어야 다음 단계로 넘어가고, 가장 마지막인 5단계에 검수 결과를 안내받음
 * 윗면과 아랫면을 보여주는 손동작에서는 Mediapipe를 통한 랜드마크 검출에 어려움이 있어 LSTM 모델을 사용하지 않음
 <p align = "center"><img src = https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/49e55063-80c7-4dac-8ff2-ef78155a6873 width = 50% height = 50%></p>
+
+---
 
 #### **B.2.2. 학습 및 테스트용 동영상 촬영**
 * 검수 시나리오상 필요한 동작을 크게 4개로 구분지어 동영상 촬영
@@ -49,10 +55,14 @@
   </tr> 
 </table>
 
+---
+
 #### **B.2.3. 어노테이션 (Bounding Box) 및 영상 분할**
 * 촬영된 영상을 Adobe Premiere Pro를 활용하여 동작 단위(약 20프레임 길이)로 분할 → LSTM 모델 학습에 사용
 * [Roboflow](https://roboflow.com/)의 Annotation Tool을 활용하여 프레임별 바운딩 박스 데이터셋을 확보 → YOLO 모델 학습에 사용
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/d142fd9f-ebea-4448-a10c-02a371af4d28' width = 60% height = 60%></p>
+
+---
 
 #### **B.2.4. 객체 인식을 위한 YOLOv5s 모델 개발**
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/35742e3a-9d50-4042-a63c-040edd3ddefe' width = 60% height = 60%></p>
@@ -76,6 +86,8 @@
 
 * 빠른 연산을 위해 모델을 onnx 형식으로 변환하여 추론에 사용
 
+---
+
 #### **B.2.5. 행동 인식을 위한 LSTM 모델 개발**
 
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/c812af74-cbd0-444f-b47e-d1f5cd6c7915' width = 80% height = 80%></p>
@@ -98,6 +110,8 @@
    <td><p align = 'center'><img src="https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/2ffeea7c-cd13-4a05-bd91-44e152f5214c" width = 100% height = 100%></p></td>     
   </tr> 
 </table>
+
+---
 
 #### **B.2.6. 검수 절차 구축 및 PC APP 개발**
 
@@ -144,5 +158,7 @@
 </table>
 
 <p align = 'center'>※<a href = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/eee01f41a56ca548bd4e4f100e578cb79f403051/proba_test.md'>링크</a>와 같이 훈련 영상과 테스트 영상을 참고하여 행동 탐지의 기준이 되는 Probability Threshold를 정함</p>
+
+---
 
 ## **C. 결과 및 기대효과**
