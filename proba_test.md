@@ -84,4 +84,4 @@
 
 * 위 영상에 대한 손 동작 예측 확률 그래프는 아래와 같음
 
-<p align = center><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/d8ac9ff3-cf85-432c-882d-b8d060a67f24' width = 40% height = 40%></p>
+<p align = center><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/d8ac9ff3-cf85-432c-882d-b8d060a67f24' width = 100% height = 100%></p>
