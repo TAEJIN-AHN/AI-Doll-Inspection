@@ -78,6 +78,8 @@
 * Threshold를 40% 중~후반 이후로 설정한다면, 회전 동작이 충분히 포함되어 있는 구간도 회전 동작으로 분류하지 않을 가능성이 있음 
 * Probability Threshold를 35% ~ 40% 정도로 설정할 시, 조금 더 안정적으로 분류 오류를 줄일 수 있다고 예상됨
 
+## Threshold 35% 테스트
+
 <p align ='center'><a href="https://www.youtube.com/watch?v=fxWYTu6a8gw" target="_blank"><img alt="youtube_link" width = 60% height = 60% src="http://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/9e2032c1-c2b9-4937-9014-4aacbbb43a2b"></a></p>
 
-
+* 위 영상에 대한 손 동작 예측 확률 그래프는 아래와 같음
