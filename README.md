@@ -118,7 +118,7 @@
   <td>각 행동(물건 내려놓기, 물건 회전하기)의 수행시간은 1초 내외이다</td>
  </tr>
  <tr>
-  <td rowspan = '3' align = 'left' valign = 'center'>행동 판단</td>
+  <td rowspan = '3' align = 'left' valign = 'center'>행동 판단&nbsp;&nbsp</td>
   <td>중앙의 적색 사각형 안에 손이 처음 감지될 때부터 사각형 밖으로 손이 나갈 때까지의 전체 프레임 수를 확인한다</td>
  </tr>
  <tr>
@@ -130,7 +130,7 @@
   <td>행동이 수행되지 않았다고 판단될 때에는 사용자에게 재수행을 요구한다</td>
  </tr>
  <tr>
-  <td rowspan = '3' align = 'left' valign = 'center'>절차 인식</td>
+  <td rowspan = '3' align = 'left' valign = 'center'>절차 인식&nbsp;&nbsp</td>
   <td>정면(내려놓기) → 옆면 및 뒷면(회전하기) → 윗면 → 아랫면 순으로 검수를 진행한다</td>
  </tr>
  <tr>
