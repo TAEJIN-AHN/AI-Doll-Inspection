@@ -1,19 +1,30 @@
-![타이틀](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/c9dbff59-f53a-4222-a0fd-9f4d772e5cb3)
+# **개인간거래 플랫폼을 위한 불량 제품 검수 모델 개발**
 
-## **A. 목차**
-  * A. [목차](#a-목차)
-  * B. [프로젝트 진행](#b-프로젝트-진행)
-    * B.1. [문제 정의](#b1-문제-정의)
-    * B.2. [주요 액션](#b2-주요-액션)
-      * B.2.1. [검수 절차 정의](#b21-검수-절차-정의)
-      * B.2.2. [학습 및 테스트용 동영상 촬영](#b22-학습-및-테스트용-동영상-촬영)
-      * B.2.3. [어노테이션 (Bounding Box) 및 영상 분할](#b23-어노테이션-bounding-box-및-영상-분할)
-      * B.2.4. [객체 인식을 위한 YOLOv5s 모델 개발](#b24-객체-인식을-위한-yolov5s-모델-개발) - [관련 코드](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/970e9b330606b5a45c64293e6b4578875c08f6a2/YOLOv5s_train_test/YOLOv5s_train_test.ipynb) | [모델 테스트 결과](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/tree/970e9b330606b5a45c64293e6b4578875c08f6a2/YOLOv5s_train_test/test_results)
-      * B.2.5. [행동 인식을 위한 LSTM 모델 개발](#b25-행동-인식을-위한-lstm-모델-개발) - [관련 코드](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/03c117013ea6285c95d51954e85bbcbbabbec976/LSTM_train_test.ipynb)
-      * B.2.6. [검수 절차 구축 및 PC APP 개발](#b26-검수-절차-구축-및-pc-app-개발) - [PC 어플리케이션 다운로드](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/62319cd54da9bda4cad1abef90abed321749d7e0/Inspection-Model_Application.zip) | [관련 코드](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/a935d7a07596d7449443c474fa150c06c6972291/inspection_process.py) | [Proba Test](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/eee01f41a56ca548bd4e4f100e578cb79f403051/proba_test.md)
-  * C. [결과 및 기대효과](#c-결과-및-기대효과)
-  * D. [Methods Used](#d-methods-used)
---- 
+## **요약**
+
+### **① 기본정보**
+* **팀구성 및 기여도** : 4명 / 25%
+* **담당 역할**
+  * 딥러닝 모델 학습을 위한 영상 촬영 및 어노테이션
+  * LSTM 기반 손동작 인식 분류 모델 구축 및 Proba Threshold 테스트
+
+---
+### **② 프로젝트 진행 배경**
+* 매년 개인 간 거래 시장 규모가 확대되고 있으나 '사기 거래'에 따른 분쟁 또한 심화되고 있습니다.
+* 이를 대비하여 일부 플랫폼에서 검수 제도가 운영되나 전문인력에 대한 의존성 등 한계가 존재합니다.
+* 제품 상태를 진단하는 딥러닝 모델을 개발, 검수 업무의 부담을 줄이고 거래 신뢰도를 높이고자 합니다.
+
+---
+### **③ 결과 및 직무에 적용할 점**
+* 딥러닝 모델을 이식한 5단계의 검수 절차를 구축, PC 앱 형태의 프로덕트를 제작하였습니다. [시연 영상](https://www.youtube.com/watch?v=T3MaxBySd3U)
+  * 프로덕트 제작 과정 중의 트러블 슈팅 경험을 활용하여 개발 부서의 고민을 잘 이해할 수 있습니다.
+  * 정형 데이터 뿐아니라 영상 형태의 비정형 데이터 전처리, 모델링 등의 업무를 수행할 수 있습니다.
+
+---
+### **④ 주요 액션**
+
+
+
 ## **B. 프로젝트 진행**
 
 ### **B.1. 문제 정의**
