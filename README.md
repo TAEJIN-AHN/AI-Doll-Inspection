@@ -22,7 +22,8 @@
 
 ---
 ### **④ 주요 액션**
-<p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/04309347-82b8-4dd5-8ad0-dc7864178b1e' width = 70%></p>
+
+<p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/04309347-82b8-4dd5-8ad0-dc7864178b1e' width = 40%></p>
 
 ## **B. 프로젝트 진행**
 
