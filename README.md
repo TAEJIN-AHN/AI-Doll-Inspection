@@ -25,6 +25,7 @@
 
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/04309347-82b8-4dd5-8ad0-dc7864178b1e' width = 50%></p>
 
+---
 ## **상세**
 
 ### **① 검수 물품 및 절차 정의**
