@@ -25,22 +25,12 @@
 
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/04309347-82b8-4dd5-8ad0-dc7864178b1e' width = 50%></p>
 
-## **B. 프로젝트 진행**
+## **상세**
 
-### **B.1. 문제 정의**
-* 매년 개인 간 거래(C2C) 시장 규모가 확대되고 있으나, '사기 거래'에 따른 거래 분쟁 또한 심화됨
-* 고가 제품을 다루는 리셀 플랫폼을 중심으로 검수 시스템이 운영되고 있으나, 전문 인력에 대한 의존성이 높고 일부 플랫폼 및 한정된 품목에서만 검수가 이루어지는 한계가 있음
-* 본 프로젝트에서는 **판매자가 물품의 모든 면을 촬영하고 딥러닝 모델이 제품의 상태와 손동작을 확인하는 검수 절차**를 구축하여 플랫폼의 업무 과중을 줄이고 거래의 신뢰도를 높이고자 함
-
----
-
-### **B.2. 주요 액션**
+### **① 검수 물품 및 절차 정의**
 * 본 프로젝트에서는 검수 물품으로 아래 사진과 같이 뒤집으면 표정이 바뀌는 문어 인형을 사용하였음<br>
 <p align = "center"><img src = https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/beaba5fa-203d-4b15-acf8-aff297f70546 width = 70% height = 70%></p>
 
----
-
-#### **B.2.1. 검수 절차 정의**
 * 본 프로젝트에서 구현하고자 하는 검수 절차를 아래와 같이 크게 5단계로 정의함
 * 각 단계에서 요구하는 물품의 상태와 손동작이 모두 인식되어야 다음 단계로 넘어가고, 가장 마지막인 5단계에 검수 결과를 안내받음
 * 윗면과 아랫면을 보여주는 손동작에서는 Mediapipe를 통한 랜드마크 검출에 어려움이 있어 LSTM 모델을 사용하지 않음
@@ -48,7 +38,7 @@
 
 ---
 
-#### **B.2.2. 학습 및 테스트용 동영상 촬영**
+### **② 학습 및 테스트용 동영상 촬영**
 * 검수 시나리오상 필요한 동작을 크게 4개로 구분지어 동영상 촬영
 <table>
    <tr>
@@ -67,14 +57,14 @@
 
 ---
 
-#### **B.2.3. 어노테이션 (Bounding Box) 및 영상 분할**
+### **③ 어노테이션 (Bounding Box) 및 영상 분할**
 * 촬영된 영상을 Adobe Premiere Pro를 활용하여 동작 단위(약 20프레임 길이)로 분할 → LSTM 모델 학습에 사용
 * [Roboflow](https://roboflow.com/)의 Annotation Tool을 활용하여 프레임별 바운딩 박스 데이터셋을 확보 → YOLO 모델 학습에 사용
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/d142fd9f-ebea-4448-a10c-02a371af4d28' width = 60% height = 60%></p>
 
 ---
 
-#### **B.2.4. 객체 인식을 위한 YOLOv5s 모델 개발**
+### **④ 객체 인식을 위한 YOLOv5s 모델 개발**
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/35742e3a-9d50-4042-a63c-040edd3ddefe' width = 60% height = 60%></p>
 
 * YOLO 학습 및 테스트 코드는 [링크_1](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/blob/970e9b330606b5a45c64293e6b4578875c08f6a2/YOLOv5s_train_test/YOLOv5s_train_test.ipynb)을, 테스트 결과(Confusion Matrix 등)는 [링크_2](https://github.com/TAEJIN-AHN/AI-Doll-Inspection/tree/970e9b330606b5a45c64293e6b4578875c08f6a2/YOLOv5s_train_test/test_results)를 참고해주시기 바랍니다.
@@ -98,7 +88,7 @@
 
 ---
 
-#### **B.2.5. 행동 인식을 위한 LSTM 모델 개발**
+### **⑤ 행동 인식을 위한 LSTM 모델 개발**
 
 <p align = 'center'><img src = 'https://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/c812af74-cbd0-444f-b47e-d1f5cd6c7915' width = 80% height = 80%></p>
 <p align = 'center'>※ 단, 손의 랜드마크는 YOLO가 검출한 손의 Bounding Box 안에서만 확인할 수 있도록 함</p>
@@ -123,7 +113,7 @@
 
 ---
 
-#### **B.2.6. 검수 절차 구축 및 PC APP 개발**
+### **⑥ 검수 절차 구축 및 PC APP 개발**
 
 <p align ='center'><a href="https://youtu.be/T3MaxBySd3U/" target="_blank"><img alt="youtube_link" width = 60% height = 60% src="http://github.com/TAEJIN-AHN/AI-Doll-Inspection/assets/125945387/0507e2dd-32ef-46fc-afd7-810b37a8d506"></a></p>
 
@@ -171,22 +161,9 @@
 
 ---
 
-## **C. 결과 및 기대효과**
-* 개인간 거래 시 제품 전체가 촬영된 영상이 구매자가에게 제공되어 거래 당사자간 상호 신뢰도를 높일 수 있음
-* 본 검수 모델을 활용한다면 판매자 선에서 1차적인 검수가 완료되기 때문에 치명적인 불량 제품을 조기에 적발할 수 있고, 2차 검수를 진행하는 리셀 플랫폼의 업무 부담이 경감됨
-
-## **D. Methods Used**
-* 딥러닝
-  * pytorch
-* 개발환경
-  * colab
-  * python
-* 일반 데이터 처리
-  * pandas
-  * numpy
-  * sklearn
-* 영상 처리
-  * opencv
-  * mediapipe
-* 시각화
-  * matplotlib
+### **⑦ 결과 및 기대효과**
+* 물품의 하자를 진단하는 YOLOv5s 모델과 검수자의 동작 수행을 확인하는 LSTM 모델을 개발함
+* 딥러닝 모델을 이식하여 총 5단계의 검수 절차를 구축하고, PC 환경에서 사용할 수 있는 APP을 제작함
+* 상기한 자동 검수 모델을 사용한다면 아래와 같은 효과를 기대할 수 있음
+  * 물품이 검수 센터를 거치는 경우 : 치명적인 불량제품을 1차적으로 스크리닝하여 업무 과중을 줄임
+  * 물품이 검수 센터를 거치지 않는 경우 : 진단 결과가 구매자에게 제공되어 거래 신뢰도가 제고됨
